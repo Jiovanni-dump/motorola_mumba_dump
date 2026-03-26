@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.lenovo.xiaotian.trigger">
+    <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" />
+    <permission name="android.permission.CAPTURE_AUDIO_HOTWORD" />
+    <permission name="android.permission.MANAGE_SOUND_TRIGGER" />
+    <permission name="android.permission.STOP_APP_SWITCHES"/>
+    <permission name="com.motorola.permission.ASR_PRIVILEGED_PERMISSION_FOR_AUDIO"/>
+    <permission name="android.permission.SOUND_TRIGGER_RUN_IN_BATTERY_SAVER"/>
+    </privapp-permissions>
+</permissions>
