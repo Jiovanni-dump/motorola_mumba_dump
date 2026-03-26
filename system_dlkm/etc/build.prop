@@ -1,0 +1,21 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_dlkm.brand=motorola
+ro.product.system_dlkm.device=mumba
+ro.product.system_dlkm.manufacturer=motorola
+ro.product.system_dlkm.model=mumba
+ro.product.system_dlkm.name=mumba_cn
+ro.system_dlkm.build.date=Thu Nov 27 04:11:45 CST 2025
+ro.system_dlkm.build.date.utc=1764238305
+ro.system_dlkm.build.fingerprint=motorola/mumba_cn/mumba:15/WWAA36V.48-23-ST12.4/e707e:user/release-keys
+ro.system_dlkm.build.id=WWAA36V.48-23-ST12.4
+ro.system_dlkm.build.tags=release-keys
+ro.system_dlkm.build.type=user
+ro.system_dlkm.build.version.incremental=e707e
+ro.system_dlkm.build.version.release=15
+ro.system_dlkm.build.version.release_or_codename=15
+ro.system_dlkm.build.version.sdk=35
+# end of file
+

@@ -1,0 +1,14 @@
+# user 16 WWAA36V.48-23-ST12.4 e707e release-keys
+- manufacturer: motorola
+- platform: parrot
+- codename: mumba
+- flavor: user
+- release: 16
+- id: WWAA36V.48-23-ST12.4
+- incremental: e707e
+- tags: release-keys
+- fingerprint: motorola/mumba_cn/mumba:15/WWAA36V.48-23-ST12.4/e707e:user/release-keys
+- is_ab: true
+- brand: motorola
+- branch: user-16-WWAA36V.48-23-ST12.4-e707e-release-keys
+- repo: motorola_mumba_dump
