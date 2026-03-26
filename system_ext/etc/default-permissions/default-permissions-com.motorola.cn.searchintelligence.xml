@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<exceptions>
+    <exception package="com.motorola.cn.searchintelligence">
+        <permission name="android.permission.READ_CALENDAR" fixed="false"/>
+        <permission name="android.permission.READ_SMS" fixed="false"/>
+        <permission name="android.permission.READ_CONTACTS" fixed="false"/>
+        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+    </exception>
+</exceptions>

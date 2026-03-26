@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+     <privapp-permissions package="com.motorola.cn.contentassistant">
+        <!-- Used to get clone apps list-->
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="com.motorola.aicore.BIND_SERVICE"/>
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    </privapp-permissions>
+</permissions>
+

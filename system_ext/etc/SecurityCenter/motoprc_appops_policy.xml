@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<motoprc-appops v="1.0.001">
+    <!-- Moto custom sensitive op configuration items.
+         name: the application package name;
+         cert: App SHA-256 signature information, the default is common/common2 signature when it is empty.
+         code: the permission op defined in MotoPrcPermissionManager.
+         mode: 0 allows permission to be granted, 1 denies permission.
+         fixed: true does not allow modification of the granted permissions, the default is false. -->
+    <pkg name="com.motorola.mobiledesktop">
+        <op code="538" mode="0"/>
+    </pkg>
+    <pkg name="com.lenovo.leos.appstore"
+        cert="51:AB:25:91:9E:16:81:50:D8:16:54:2F:5A:AA:46:59:19:77:40:75:29:3D:E8:27:65:7F:68:DA:BE:9E:8A:F3">
+        <op code="538" mode="0"/>
+    </pkg>
+    <pkg name="com.zui.browser"
+        cert="C3:8E:EE:B9:92:18:F3:24:30:00:90:1B:93:CB:65:50:6F:E8:11:10:A9:D6:04:BC:0E:EF:59:D5:18:2A:64:16">
+        <op code="538" mode="0"/>
+    </pkg>
+    <pkg name="com.motorola.callassistant">
+        <op code="518" mode="0"/>
+        <op code="519" mode="0"/>
+    </pkg>
+    <pkg name="com.motorola.callassistantui">
+        <op code="518" mode="0"/>
+    </pkg>
+    <pkg name="com.motorola.smarteye">
+        <op code="532" mode="0"/>
+    </pkg>
+    <pkg name="com.motorola.cn.wallet">
+        <op code="519" mode="0"/>
+    </pkg>
+    <pkg name="cn.handanbank.apk"
+         cert="5D:27:D5:1F:A5:A5:A7:7C:A4:2D:F1:C1:38:7C:76:96:41:41:05:9A:6B:E6:35:BA:5C:58:70:01:00:B2:FE:37">
+        <op code="533" mode="1"/>
+        <op code="534" mode="1"/>
+        <op code="538" mode="1"/>
+    </pkg>
+    <preferred package="com.lenovo.menu_assistant"
+        cert="51:AB:25:91:9E:16:81:50:D8:16:54:2F:5A:AA:46:59:19:77:40:75:29:3D:E8:27:65:7F:68:DA:BE:9E:8A:F3">
+        <action name="android.intent.action.VOICE_COMMAND" activity="com.lenovo.menu_assistant.MainActivity"/>
+    </preferred>
+    <preferred package="com.android.packageinstaller">
+        <action name="android.intent.action.VIEW" type="application/vnd.android.package-archive" activity="com.android.packageinstaller.InstallStart"/>
+        <action name="android.intent.action.INSTALL_PACKAGE" type="application/vnd.android.package-archive" activity="com.android.packageinstaller.InstallStart"/>
+        <action name="android.content.pm.action.CONFIRM_INSTALL" activity="com.android.packageinstaller.InstallStart"/>
+        <action name="android.content.pm.action.CONFIRM_PRE_APPROVAL" activity="com.android.packageinstaller.InstallStart"/>
+    </preferred>
+    <ignore_op_note_callback>
+        <item code="120" name="com.lenovo.xiaotian.trigger" cert="51:AB:25:91:9E:16:81:50:D8:16:54:2F:5A:AA:46:59:19:77:40:75:29:3D:E8:27:65:7F:68:DA:BE:9E:8A:F3"/>
+    </ignore_op_note_callback>
+</motoprc-appops>
